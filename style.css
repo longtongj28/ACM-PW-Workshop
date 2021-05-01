@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*Front page stuff*/
+
+/*Nav bar*/
+.front-page {
+    position: relative;
+    padding: none;
+    margin: none;
+    background-color: wheat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.nav-btn-list {
+    position:absolute;
+    margin: none;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav-btn-list li{
+    height: 100%;
+    margin: none;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+.nav-btn-list li a {
+    padding: 10px 10px;
+    display: inline-block;
+    margin: none;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.nav-btn-list li a:hover {
+    transform:scale(1.1);
+}
+
+.background1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.background1 h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    position: absolute;
+    width: 100%;
+}
+
+/* Contact page */
+.contact-me {
+    margin: none;
+    position: relative;
+    background-color: aquamarine;
+    min-height: 100%;
+    width: 100%;
+
+}
+.contact-me h1 {
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+
+}
+.tuffypic {
+    border-style: solid;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+.contact-me-row {
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    font-size: 2.5rem;
+}
